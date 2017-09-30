@@ -392,7 +392,7 @@ minetest.register_abm{
 		timer = timer + dtime;
 		local randflash = math.random(2,10)
 		local randflash_limit = randflash + 1
-			if if timer > randflash and timer < randflash_limit then
+			if timer > randflash and timer < randflash_limit then
 
 			--- do at night
 			local tod = minetest.get_timeofday()
